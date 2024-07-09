@@ -1,0 +1,30 @@
+.wrapperCards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr .75fr;
+    gap: 100px;
+
+}
+.Card, .outcast{
+   padding: 150px 50px;
+   border: 2px solid ;
+   position: relative;
+   border-radius: 35px;
+   overflow: hidden;
+}
+.shape{
+    position: absolute;
+    width: 50px;
+    height: 250px;
+    background: #000;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+.innerCard{
+    position: absolute;
+    padding:  110px 50%;
+    background: #fff;
+    border-radius: 35px;
+    bottom: 0;
+    left: 0;
+}

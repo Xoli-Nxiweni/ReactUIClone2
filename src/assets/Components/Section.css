@@ -1,0 +1,27 @@
+.sectionContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Right {
+    padding: 70px 180px;
+    border: 1px solid;
+    box-shadow: 
+        -45px 40px 0px #000000,
+        -80px 80px 90px #0000004d,
+        0 0 0px #00000033;
+    border-radius: 20px;
+}
+.sectionContainer h1{
+    padding: 100px 0 0 0;
+    font-size: 3em;
+    font-weight: 500;
+}
+.sectionContainer p{
+    color: rgb(99, 99, 99);
+}
