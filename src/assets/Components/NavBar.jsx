@@ -1,10 +1,13 @@
 import './NavBar.css'
+import { IoSearchSharp } from "react-icons/io5";
+import { GoBellFill } from "react-icons/go";
+import { FaEnvelopeCircleCheck } from "react-icons/fa6";
 
 let NavBar = () =>{
     return(
         <div className='nav'>
             <div className='logo'>
-                <img/>
+                <img src='logo2.png'/>
             </div>
             <div className='links'>
                 <ul>
@@ -15,12 +18,17 @@ let NavBar = () =>{
                 </ul>
             </div>
             <div className='searchBar'>
-                {/* icon */}
+                <div className='Bar'>
+                    <input type="text" />
+                <IoSearchSharp className='searchIcon' />
+                </div>
             </div>
             <div className='otherIcons'>
-                {/* icon */}
-                {/* icon */}
-                {/* user */}
+                <GoBellFill />
+                <FaEnvelopeCircleCheck/>
+               <div className='userIcon'>
+                    <img src="https://img.freepik.com/premium-photo/default-male-user-icon-blank-profile-image-green-background-profile-picture-icon_962764-98397.jpg"/>
+               </div>
             </div>
         </div>
     )

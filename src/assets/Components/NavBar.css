@@ -5,10 +5,20 @@
     padding: 10px 10%;
 }
 .logo{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: orange;
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* width: 50px; */
+    /* height: 50px; */
+
+    /* border-radius: 50%; */
+    /* background: orange; */
+    /* background-image: url('logo.png'); */
+}
+.logo img{
+    height: 30px;
+    top: 0;
+    /* border-radius: 50%; */
 }
 .links ul{
     display: flex;
@@ -19,12 +29,53 @@
     font-size: .9em;
     text-align: center;
 }
-.searchBar{
-    padding: 15px 50px;
-    background: rgba(180, 55, 180, 0);
-    border: 2px solid;
+/* .searchBar{
+    display: flex;
+    align-items: center;
+    background: rgb(185, 185, 185);
+    border-radius: 5px;
+    
+} */
+.Bar{
+    position: relative;
+    width: 90px;
+    height: 35px;
+}
+input{
+    position: relative;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    background: #d6d6d6;
+    border: none;
+    padding: 10px;
+}
+input:focus{
+    outline: none;
+}
+.searchIcon{
+    position: absolute;
+    right: -25px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    font-size: 25px;
 }
 .otherIcons{
-    padding: 15px 65px;
-    border: 2px solid;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.otherIcons svg{
+   font-size: 25px;
+}
+.userIcon{
+    display: flex;
+    /* padding: 25px; */
+    border-radius: 50%;
+}
+.userIcon img{
+    background: green;
+    border-radius: 50%;
+    width: 40px;
 }

@@ -7,6 +7,10 @@
   text-decoration: none;
   font-family: Poppins;
 }
+::selection{
+  background: #8cce8c;
+  color: #fff;
+}
 body{
   background: #ECF0F3;
   padding: 20px;
@@ -22,9 +26,9 @@ body{
   /* padding: 10px 10%; */
   padding: 10px 10%;
 }
-header{
-  /* background: #20ff20; */
-}
+/* header{
+  background: #20ff20;
+} */
 section{
   grid-area: section;
   /* background: #20ff20; */
