@@ -19,13 +19,14 @@
     border-radius: 15px;
 }
 .one{
-    background: linear-gradient(to bottom right, orange 25%, blue 50px, green);
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+
 }
 .two{
-    background: linear-gradient(to bottom right, orange 25%, blue 50px, green);
+    background: linear-gradient(135deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8b00ff);
 }
 .three{
-    background: linear-gradient(to bottom right, orange 25%, blue 50px, green);
+    background: linear-gradient(135deg, #ff6a6a 0%, #ffb6b9 100%)
 }
 .four{
     background: #c5c5c5;

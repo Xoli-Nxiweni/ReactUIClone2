@@ -19,12 +19,18 @@
     z-index: 1;
 }
 .shape1{
+    width: 200px;
+    clip-path: polygon(40% 0, 100% 37%, 100% 100%, 40% 60%);
     background: #e86b34;
 }
 .shape2{
+    width: 200px;
+    clip-path: polygon(40% 0, 100% 37%, 100% 100%, 40% 60%);
     background: #7533fc;
 }
 .shape3{
+    width: 200px;
+    clip-path: polygon(40% 0, 100% 37%, 100% 100%, 40% 60%);
     background: #d7155c;
 }
 .innerCard{

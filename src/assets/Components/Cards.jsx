@@ -28,7 +28,7 @@ const Cards = () => {
         <div className='shape shape2'></div>
         <div className='innerCard'>
           <div className="innerContent">
-            <img src="" alt="" />
+            <img src="logo.png" alt="" />
             <div className="name">
               <h4>Moty Weiss</h4>
               <TbPointFilled className='onlineIcon'/>
