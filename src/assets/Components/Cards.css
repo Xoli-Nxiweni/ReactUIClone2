@@ -1,10 +1,10 @@
 .wrapperCards{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr .75fr;
-    gap: 50px;
+    gap: 70px;
 }
 .Card{
-   padding: 150px 50px;
+   padding: 150px 20px;
    position: relative;
    border-radius: 35px;
    overflow: hidden;
@@ -20,17 +20,17 @@
 }
 .shape1{
     width: 180px;
-    clip-path: polygon(40% 0, 100% 37%, 100% 100%, 40% 60%);
+    clip-path: polygon(43% 0, 100% 18%, 100% 100%, 44% 52%);
     background: #e86b34;
 }
 .shape2{
     width: 180px;
-    clip-path: polygon(40% 0, 100% 37%, 100% 100%, 40% 60%);
+    clip-path: polygon(43% 0, 100% 18%, 100% 100%, 44% 52%);
     background: #7533fc;
 }
 .shape3{
     width: 180px;
-    clip-path: polygon(40% 0, 100% 37%, 100% 100%, 40% 60%);
+    clip-path: polygon(43% 0, 100% 18%, 100% 100%, 44% 52%);
     background: #d7155c;
 }
 .innerCard{
@@ -75,17 +75,16 @@
     left: 0;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     justify-content: center;
     padding: 20px;
-    gap: 10px;
+    gap: 5px;
     width: 75%;
 }
 .customImg{
     position: absolute;
     width: 180px;
     z-index: 1;
-    bottom: 140px;
+    bottom: 130px;
     right: -50px;
     box-shadow: -20px 100px 50px #00000039;
     object-fit: cover;
@@ -94,20 +93,23 @@
     position: absolute;
     width: 110px;
     z-index: 1;
-    bottom: 140px;
+    bottom: 130px;
     right: 0;
     box-shadow: -20px 100px 50px #00000039;
     object-fit: cover;
 }
 
+.innerContent h4{
+    font-weight: 500;
+}
 .innerContent h5{
     color: #6e6b6b;
     font-weight: 600;
 }
 .onlineIcon{
-    font-size: 1.5em;
+    font-size: 1em;
     color: #21C827;
-    outline: 5px solid white; 
+    outline: 3px solid white; 
     background-color: #21C827;
     border-radius: 50%;
     z-index: 1;
@@ -119,7 +121,7 @@
     position: unset;
     border: none;
     padding: 10px 20px;
-    border-radius: 15px;
+    border-radius: 10px;
     margin: 0 auto 0 0;
 }
 .anotherContainer{
