@@ -14,7 +14,7 @@ const Cards = () => {
         <div className='shape shape1'></div>
         <div className='innerCard'>
           <div className="innerContent">
-            <img src="" alt="" />
+            <img className='customImg' src="https://www.audibel.com/wp-content/uploads/2022/11/iic_slider.png" alt="" />
             <div className="name">
               <h4>Zain Sajid</h4>
               <TbPointFilled className='onlineIcon'/>
@@ -28,7 +28,7 @@ const Cards = () => {
         <div className='shape shape2'></div>
         <div className='innerCard'>
           <div className="innerContent">
-            <img src="logo.png" alt="" />
+            <img className='standAloneImg' src="https://as1.ftcdn.net/v2/jpg/06/28/74/24/1000_F_628742415_Hl4tKfz8ZkqRoqpmX7vnoaH2UaiAXf3u.webp" alt="" />
             <div className="name">
               <h4>Moty Weiss</h4>
               <TbPointFilled className='onlineIcon'/>
@@ -42,7 +42,7 @@ const Cards = () => {
         <div className='shape shape3'></div>
         <div className='innerCard'>
           <div className="innerContent">
-            <img src="" alt="" />
+            <img className='customImg' src="https://www.audibel.com/wp-content/uploads/2022/11/CIC-10_FL21_OE003702_Brown_Clear_Utica_Claire_Lrg_03.png" alt="" />
             <div className="name">
               <h4>Alena Aulova</h4>
               <TbPointFilled className='onlineIcon'/>

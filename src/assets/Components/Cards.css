@@ -2,13 +2,13 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr .75fr;
     gap: 50px;
-
 }
 .Card{
    padding: 150px 50px;
    position: relative;
    border-radius: 35px;
    overflow: hidden;
+   background: #ECF0F3;
 }
 .shape{
     position: absolute;
@@ -19,17 +19,17 @@
     z-index: 1;
 }
 .shape1{
-    width: 200px;
+    width: 180px;
     clip-path: polygon(40% 0, 100% 37%, 100% 100%, 40% 60%);
     background: #e86b34;
 }
 .shape2{
-    width: 200px;
+    width: 180px;
     clip-path: polygon(40% 0, 100% 37%, 100% 100%, 40% 60%);
     background: #7533fc;
 }
 .shape3{
-    width: 200px;
+    width: 180px;
     clip-path: polygon(40% 0, 100% 37%, 100% 100%, 40% 60%);
     background: #d7155c;
 }
@@ -75,10 +75,31 @@
     left: 0;
     display: flex;
     flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
     padding: 20px;
     gap: 10px;
     width: 75%;
 }
+.customImg{
+    position: absolute;
+    width: 180px;
+    z-index: 1;
+    bottom: 140px;
+    right: -50px;
+    box-shadow: -20px 100px 50px #00000039;
+    object-fit: cover;
+}
+.standAloneImg{
+    position: absolute;
+    width: 110px;
+    z-index: 1;
+    bottom: 140px;
+    right: 0;
+    box-shadow: -20px 100px 50px #00000039;
+    object-fit: cover;
+}
+
 .innerContent h5{
     color: #6e6b6b;
     font-weight: 600;
@@ -89,6 +110,7 @@
     outline: 5px solid white; 
     background-color: #21C827;
     border-radius: 50%;
+    z-index: 1;
 }
 .followBtn{
     display: grid;
@@ -98,7 +120,7 @@
     border: none;
     padding: 10px 20px;
     border-radius: 15px;
-    margin: 0 auto;
+    margin: 0 auto 0 0;
 }
 .anotherContainer{
     position: absolute;
