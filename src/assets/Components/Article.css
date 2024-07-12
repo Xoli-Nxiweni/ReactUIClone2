@@ -25,7 +25,7 @@
     background: linear-gradient(135deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8b00ff);
 }
 .three{
-    background: linear-gradient(135deg, #ff6a6a 0%, #ffb6b9 100%)
+    background: linear-gradient(135deg, #ff6a6a, #0000ff, #ffb6b9 100%)
 }
 .four{
     background: #c5c5c5;

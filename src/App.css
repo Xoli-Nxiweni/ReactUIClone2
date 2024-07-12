@@ -18,13 +18,13 @@ body{
 .container{
   display: grid;
   grid-template-columns: 1fr;
-  gap: 20px;
   grid-template-areas: 
   "section"
   "article"
   "main";
   /* padding: 10px 10%; */
-  padding: 10px 10%;
+  padding: 0px 10%;
+  gap: 10px;
 }
 /* header{
   background: #20ff20;

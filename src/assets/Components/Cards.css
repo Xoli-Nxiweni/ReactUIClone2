@@ -8,7 +8,6 @@
    position: relative;
    border-radius: 35px;
    overflow: hidden;
-   background: #ECF0F3;
 }
 .shape{
     position: absolute;
@@ -19,17 +18,17 @@
     z-index: 1;
 }
 .shape1{
-    width: 180px;
+    width: 260px;
     clip-path: polygon(43% 0, 100% 18%, 100% 100%, 44% 52%);
     background: #e86b34;
 }
 .shape2{
-    width: 180px;
+    width: 260px;
     clip-path: polygon(43% 0, 100% 18%, 100% 100%, 44% 52%);
     background: #7533fc;
 }
 .shape3{
-    width: 180px;
+    width: 260px;
     clip-path: polygon(43% 0, 100% 18%, 100% 100%, 44% 52%);
     background: #d7155c;
 }
@@ -120,7 +119,7 @@
     color: #fff;
     position: unset;
     border: none;
-    padding: 10px 20px;
+    padding: 5px 10px;
     border-radius: 10px;
     margin: 0 auto 0 0;
 }
