@@ -1,47 +1,48 @@
-.nav{
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 10%;
 }
-.logo{
+
+.logo {
     position: relative;
     display: flex;
     align-items: center;
-    /* width: 50px; */
-    /* height: 50px; */
-
-    /* border-radius: 50%; */
-    /* background: orange; */
-    /* background-image: url('logo.png'); */
 }
-.logo img{
+
+.logo img {
     height: 30px;
     top: 0;
-    /* border-radius: 50%; */
 }
-.links ul{
+
+.links {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+
+.links ul {
     display: flex;
     gap: 15px;
 }
-.links ul a{
+
+.links ul a {
     color: rgb(124, 124, 124);
-    font-size: .9em;
+    font-size: .8em;
     text-align: center;
 }
-/* .searchBar{
-    display: flex;
-    align-items: center;
-    background: rgb(185, 185, 185);
-    border-radius: 5px;
-    
-} */
-.Bar{
+
+.searchBar {
+    position: relative;
+}
+
+.Bar {
     position: relative;
     width: 90px;
     height: 35px;
 }
-input{
+
+input {
     position: relative;
     width: 120px;
     height: 35px;
@@ -50,10 +51,12 @@ input{
     border: none;
     padding: 10px;
 }
-input:focus{
+
+input:focus {
     outline: none;
 }
-.searchIcon{
+
+.searchIcon {
     position: absolute;
     right: -25px;
     top: 0;
@@ -61,29 +64,95 @@ input:focus{
     margin: auto;
     font-size: 25px;
 }
-.otherIcons{
+
+.otherIcons {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 30px;
 }
-.otherIcons svg{
-   font-size: 25px;
+
+.otherIcons svg {
+    font-size: 25px;
 }
-.userIcon{
+
+.userIcon {
     display: flex;
-    /* padding: 25px; */
     border-radius: 50%;
 }
-.userIcon img{
+
+.userIcon img {
     background: green;
     border-radius: 50%;
     width: 40px;
 }
 
-@media (max-width:940px) {
-    .links ul a{
-        color: rgb(124, 124, 124);
-        font-size: .5em;
+.hamburger {
+    display: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+@media (max-width: 940px) {
+    .links {
+        position: absolute;
+        right: 0;
+        top: 10%;
+        background: white;
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
         text-align: center;
+        transform: translateY(-200%);
     }
+    
+    .links.open {
+        transform: translateY(0);
+    }
+
+    .links ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .links ul a {
+        font-size: 1em;
+        border-bottom: 1px solid #ddd;
+    }
+    .hamburger {
+        display: block;
+    }
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+    .otherIcons {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+}
+@media (max-width: 640px) {
+
+    .otherIcons {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+}
+@media (max-width: 415px) {
+    .otherIcons {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: .4em;
+    }
+    .otherIcons svg:nth-child(1),
+    .otherIcons svg:nth-child(2){
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 2.5em;
+    }    
 }

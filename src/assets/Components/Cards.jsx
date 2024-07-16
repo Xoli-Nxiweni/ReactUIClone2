@@ -60,7 +60,7 @@ const Cards = () => {
             <TiSocialLinkedin />
           </div>
           <div className="anotherContainer">
-            <RiBasketballLine />
+            <RiBasketballLine className='basketball'/>
             <h5>Follow us</h5>
           </div>
           <button className='arrowBtn'><FaArrowRightLong /></button>

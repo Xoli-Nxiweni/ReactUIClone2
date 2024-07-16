@@ -26,22 +26,14 @@ body{
   padding: 0px 10%;
   gap: 10px;
 }
-/* header{
-  width: 100%;
-} */
 section{
   grid-area: section;
-  /* padding: 30px 0; */
-  /* background: #20ff20; */
 }
 article{
   grid-area: article;
-  /* padding: 30px 0; */
-  /* background: #20ff20; */
 }
 cards{
   grid-area: main;
-  /* background: #20ff20; */
 }
 
 

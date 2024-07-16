@@ -122,13 +122,23 @@
     padding: 5px 10px;
     border-radius: 10px;
     margin: 0 auto 0 0;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: all .4s ease-in-out;
+}
+.followBtn:hover{
+    display: grid;
+    border: 1px solid #001e2c;
+    color: #001e2c;
+    background: transparent;
+    
 }
 .anotherContainer{
     position: absolute;
     bottom: 50px;
     right: 0;
     left: 0;
-    padding: 20px;
+    padding: 10px;
     margin: 0 auto;
     border-bottom: 5px solid red;
     background: #E5E9EC;
@@ -144,15 +154,39 @@
     border-radius: 45px;
     border: 0;
     background: #fff;
+    display: flex;
+    cursor: pointer;
 }
 .arrowBtn svg{
     font-size: 1.5em;
 }
+.basketball{
+    font-size: 1.7em;
+}
 
 @media (max-width: 940px) {
     .wrapperCards{
-        display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 70px;
     }
+}
+@media (max-width: 640px) {
+    .wrapperCards{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 70px;
+    }
+    .anotherContainer{
+        position: relative;
+        bottom: 0px;
+    }
+    .Card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        position: relative;
+        border-radius: 35px;
+        overflow: hidden;
+     }
 }

@@ -52,5 +52,6 @@
 @media (max-width: 940px) {
     .Article{
         padding: 20px;
+        flex-direction: column;
     }
 }
