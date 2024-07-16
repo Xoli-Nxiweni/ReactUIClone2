@@ -48,3 +48,9 @@
 .Text h1{
     font-weight: 600;
 }
+
+@media (max-width: 940px) {
+    .Article{
+        padding: 20px;
+    }
+}

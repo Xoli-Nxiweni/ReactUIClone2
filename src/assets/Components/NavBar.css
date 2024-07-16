@@ -79,3 +79,11 @@ input:focus{
     border-radius: 50%;
     width: 40px;
 }
+
+@media (max-width:940px) {
+    .links ul a{
+        color: rgb(124, 124, 124);
+        font-size: .5em;
+        text-align: center;
+    }
+}

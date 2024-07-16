@@ -63,3 +63,15 @@
     align-items: center;
     justify-content: center;
 }
+
+@media (max-width: 940px) {
+    .heading{
+        padding: 10px;
+    }
+    .sectionContainer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        /* padding: 20px 0 20px 0; */
+    }
+}
