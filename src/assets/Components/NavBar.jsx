@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './NavBar.css';
 import { IoSearchSharp } from "react-icons/io5";
 import { GoBellFill } from "react-icons/go";
